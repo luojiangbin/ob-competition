@@ -1,0 +1,11 @@
+﻿id,scope,category,status,bytes,hit,missing,question
+H01,S1,constraint,ready,611,1,,大作业必须用哪个 C++ 标准？
+H02,S1,decision,ready,637,1,,老师为什么要求用递归写迷宫？
+H03,S2,constraint,ready,604,1,,字符集定的是什么？
+H04,S2,decision,ready,875,1,,借阅表为什么不做软删除？
+H05,S3,constraint,ready,619,1,,返回 404 的情况怎么处理的？
+H06,S3,pitfall,ready,594,1,,粘包这个问题后来怎么发现的？
+H07,S4,constraint,ready,644,1,,平均周转时间是怎么定义的？
+H08,S4,pitfall,ready,1123,1,,时间片设置出了什么问题？
+H09,S5,decision,ready,616,1,,为什么把聊天功能砍掉了？
+H10,S5,pitfall,ready,653,1,,本地调试时域名校验怎么处理的？

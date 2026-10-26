@@ -1,0 +1,10 @@
+{"id":"Y01","scope":"S1","category":"constraint","question":"大作业对编译器版本有什么硬性要求？","expected_keywords":["C++17"]}
+{"id":"Y02","scope":"S1","category":"decision","question":"为什么用深搜而不是广搜？","expected_keywords":["DFS","递归"]}
+{"id":"Y03","scope":"S2","category":"constraint","question":"这个课设允许用现成的持久层框架吗？","expected_keywords":["ORM"]}
+{"id":"Y04","scope":"S2","category":"constraint","question":"数据库选的是哪个版本？","expected_keywords":["8.0"]}
+{"id":"Y05","scope":"S3","category":"pitfall","question":"接收数据的时候有没有考虑边界情况？","expected_keywords":["粘包"]}
+{"id":"Y06","scope":"S3","category":"constraint","question":"这个实验允许引入第三方网络库吗？","expected_keywords":["socket"]}
+{"id":"Y07","scope":"S4","category":"pitfall","question":"如果某个进程一直跑不完，可能是什么原因？","expected_keywords":["时间片"]}
+{"id":"Y08","scope":"S4","category":"decision","question":"进程控制块是怎么存的？","expected_keywords":["结构体数组"]}
+{"id":"Y09","scope":"S5","category":"constraint","question":"后端技术选型是什么？","expected_keywords":["FastAPI"]}
+{"id":"Y10","scope":"S5","category":"pitfall","question":"本地调试时接口调不通，是怎么解决的？","expected_keywords":["域名","HTTPS"]}

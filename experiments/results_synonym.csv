@@ -1,0 +1,11 @@
+﻿id,scope,category,status,bytes,hit,missing,question
+Y01,S1,constraint,empty,0,0,C++17,大作业对编译器版本有什么硬性要求？
+Y02,S1,decision,empty,0,0,DFS;递归,为什么用深搜而不是广搜？
+Y03,S2,constraint,ready,828,1,,这个课设允许用现成的持久层框架吗？
+Y04,S2,constraint,empty,0,0,8.0,数据库选的是哪个版本？
+Y05,S3,pitfall,empty,0,0,粘包,接收数据的时候有没有考虑边界情况？
+Y06,S3,constraint,empty,0,0,socket,这个实验允许引入第三方网络库吗？
+Y07,S4,pitfall,empty,0,0,时间片,如果某个进程一直跑不完，可能是什么原因？
+Y08,S4,decision,empty,0,0,结构体数组,进程控制块是怎么存的？
+Y09,S5,constraint,empty,0,0,FastAPI,后端技术选型是什么？
+Y10,S5,pitfall,empty,0,0,域名;HTTPS,本地调试时接口调不通，是怎么解决的？

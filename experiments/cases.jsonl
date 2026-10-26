@@ -1,0 +1,20 @@
+{"id":"Q01","scope":"S1","category":"constraint","question":"数据结构课设用什么语言和标准？","expected_keywords":["C++17","第三方库"]}
+{"id":"Q02","scope":"S1","category":"constraint","question":"栈和队列能直接用 STL 吗？","expected_keywords":["不能","手写"]}
+{"id":"Q03","scope":"S1","category":"decision","question":"迷宫求解为什么选 DFS 不选 BFS？","expected_keywords":["递归","老师"]}
+{"id":"Q04","scope":"S1","category":"pitfall","question":"pop_back 那个 bug 是怎么回事？","expected_keywords":["不返回值","死循环"]}
+{"id":"Q05","scope":"S2","category":"constraint","question":"数据库课设的 MySQL 版本和字符集？","expected_keywords":["8.0","utf8mb4"]}
+{"id":"Q06","scope":"S2","category":"constraint","question":"课设允许用 ORM 吗？","expected_keywords":["不允许","手写 SQL"]}
+{"id":"Q07","scope":"S2","category":"decision","question":"借阅记录是怎么设计的？","expected_keywords":["状态","软删除"]}
+{"id":"Q08","scope":"S2","category":"pitfall","question":"外键级联删除出过什么问题？","expected_keywords":["历史","RESTRICT"]}
+{"id":"Q09","scope":"S3","category":"constraint","question":"网络实验能用 Flask 之类的框架吗？","expected_keywords":["不能","socket"]}
+{"id":"Q10","scope":"S3","category":"constraint","question":"HTTP 服务器要支持哪些方法和状态码？","expected_keywords":["GET","404"]}
+{"id":"Q11","scope":"S3","category":"decision","question":"服务器并发模型怎么定的？","expected_keywords":["单线程","跑通"]}
+{"id":"Q12","scope":"S3","category":"pitfall","question":"粘包问题是怎么发现的？","expected_keywords":["recv","截断"]}
+{"id":"Q13","scope":"S4","category":"constraint","question":"操作系统课设要实现哪几种调度算法？","expected_keywords":["FCFS","SJF","RR"]}
+{"id":"Q14","scope":"S4","category":"constraint","question":"输出必须包含哪些指标？","expected_keywords":["周转时间","等待时间"]}
+{"id":"Q15","scope":"S4","category":"decision","question":"PCB 用什么数据结构模拟？","expected_keywords":["结构体数组","链表"]}
+{"id":"Q16","scope":"S4","category":"pitfall","question":"RR 算法那个死循环怎么来的？","expected_keywords":["时间片"]}
+{"id":"Q17","scope":"S5","category":"constraint","question":"二手交易项目的前后端技术栈？","expected_keywords":["小程序","FastAPI"]}
+{"id":"Q18","scope":"S5","category":"constraint","question":"数据库能自己搭吗？","expected_keywords":["不能","学校"]}
+{"id":"Q19","scope":"S5","category":"decision","question":"第一版砍掉了什么功能？","expected_keywords":["聊天"]}
+{"id":"Q20","scope":"S5","category":"pitfall","question":"小程序本地调试踩了什么坑？","expected_keywords":["HTTPS","域名"]}

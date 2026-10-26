@@ -1,0 +1,21 @@
+﻿id,scope,category,status,bytes,hit,missing,question
+Q01,S1,constraint,ready,611,1,,数据结构课设用什么语言和标准？
+Q02,S1,constraint,ready,613,1,,栈和队列能直接用 STL 吗？
+Q03,S1,decision,ready,637,1,,迷宫求解为什么选 DFS 不选 BFS？
+Q04,S1,pitfall,ready,625,1,,pop_back 那个 bug 是怎么回事？
+Q05,S2,constraint,ready,828,1,,数据库课设的 MySQL 版本和字符集？
+Q06,S2,constraint,ready,828,1,,课设允许用 ORM 吗？
+Q07,S2,decision,ready,875,1,,借阅记录是怎么设计的？
+Q08,S2,pitfall,ready,629,1,,外键级联删除出过什么问题？
+Q09,S3,constraint,ready,606,1,,网络实验能用 Flask 之类的框架吗？
+Q10,S3,constraint,ready,619,1,,HTTP 服务器要支持哪些方法和状态码？
+Q11,S3,decision,ready,604,1,,服务器并发模型怎么定的？
+Q12,S3,pitfall,ready,594,1,,粘包问题是怎么发现的？
+Q13,S4,constraint,ready,1374,1,,操作系统课设要实现哪几种调度算法？
+Q14,S4,constraint,ready,644,1,,输出必须包含哪些指标？
+Q15,S4,decision,ready,593,1,,PCB 用什么数据结构模拟？
+Q16,S4,pitfall,ready,1374,1,,RR 算法那个死循环怎么来的？
+Q17,S5,constraint,ready,625,1,,二手交易项目的前后端技术栈？
+Q18,S5,constraint,ready,610,1,,数据库能自己搭吗？
+Q19,S5,decision,ready,616,1,,第一版砍掉了什么功能？
+Q20,S5,pitfall,ready,653,1,,小程序本地调试踩了什么坑？

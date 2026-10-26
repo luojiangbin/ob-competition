@@ -1,0 +1,10 @@
+{"id":"H01","scope":"S1","category":"constraint","question":"大作业必须用哪个 C++ 标准？","expected_keywords":["C++17"]}
+{"id":"H02","scope":"S1","category":"decision","question":"老师为什么要求用递归写迷宫？","expected_keywords":["递归"]}
+{"id":"H03","scope":"S2","category":"constraint","question":"字符集定的是什么？","expected_keywords":["utf8mb4"]}
+{"id":"H04","scope":"S2","category":"decision","question":"借阅表为什么不做软删除？","expected_keywords":["软删除"]}
+{"id":"H05","scope":"S3","category":"constraint","question":"返回 404 的情况怎么处理的？","expected_keywords":["404"]}
+{"id":"H06","scope":"S3","category":"pitfall","question":"粘包这个问题后来怎么发现的？","expected_keywords":["粘包"]}
+{"id":"H07","scope":"S4","category":"constraint","question":"平均周转时间是怎么定义的？","expected_keywords":["周转时间"]}
+{"id":"H08","scope":"S4","category":"pitfall","question":"时间片设置出了什么问题？","expected_keywords":["时间片"]}
+{"id":"H09","scope":"S5","category":"decision","question":"为什么把聊天功能砍掉了？","expected_keywords":["聊天"]}
+{"id":"H10","scope":"S5","category":"pitfall","question":"本地调试时域名校验怎么处理的？","expected_keywords":["域名"]}

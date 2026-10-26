@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "scopes": [
+    {
+      "key": "S1",
+      "title": "数据结构课设 · 迷宫求解",
+      "summary": "C++17 手写栈和队列的迷宫求解大作业",
+      "memories": [
+        { "kind": "constraint", "text": "数据结构课设必须用 C++17 编写，禁用所有第三方库。", "reason": "老师明确要求" },
+        { "kind": "constraint", "text": "栈和队列必须手写实现，不能使用 STL 的 stack 和 queue。", "reason": "评分点" },
+        { "kind": "decision", "text": "迷宫求解采用 DFS 递归加回溯，不使用 BFS，因为老师要求体现递归思想。", "reason": "已与老师确认" },
+        { "kind": "pitfall", "text": "pop_back 的 bug：用 vector 当栈时 pop_back() 不返回值，导致死循环。", "reason": "踩坑记录" },
+        { "kind": "next_step", "text": "下一步把递归 DFS 改写为显式栈实现，交给队友接手。", "reason": "分工安排" }
+      ]
+    },
+    {
+      "key": "S2",
+      "title": "数据库课设 · 图书管理系统",
+      "summary": "MySQL 8.0 手写 SQL 的图书借阅系统",
+      "memories": [
+        { "kind": "constraint", "text": "数据库课设使用 MySQL 8.0，字符集必须为 utf8mb4。", "reason": "环境约定" },
+        { "kind": "constraint", "text": "课设不允许使用 ORM，必须手写 SQL。", "reason": "课程要求" },
+        { "kind": "decision", "text": "借阅表采用借阅记录加状态字段建模，不做软删除。", "reason": "设计评审结论" },
+        { "kind": "pitfall", "text": "外键级联删除会把历史借阅记录一起删掉，已改为 ON DELETE RESTRICT。", "reason": "踩坑记录" },
+        { "kind": "next_step", "text": "队友接手存储过程和触发器的编写。", "reason": "分工安排" }
+      ]
+    },
+    {
+      "key": "S3",
+      "title": "计算机网络实验 · 简易 HTTP 服务器",
+      "summary": "只用 socket API 实现支持 GET 的 HTTP 服务器",
+      "memories": [
+        { "kind": "constraint", "text": "实验不能用 Flask 等 Web 框架，只能使用 socket API。", "reason": "实验要求" },
+        { "kind": "constraint", "text": "服务器必须支持 GET 请求，并能正确返回 200 和 404 状态码。", "reason": "验收标准" },
+        { "kind": "decision", "text": "并发模型：先单线程阻塞跑通，再考虑多线程。", "reason": "渐进策略" },
+        { "kind": "pitfall", "text": "recv 没有处理粘包，导致请求头被截断。", "reason": "踩坑记录" },
+        { "kind": "next_step", "text": "队友接手并发改造和压力测试。", "reason": "分工安排" }
+      ]
+    },
+    {
+      "key": "S4",
+      "title": "操作系统课设 · 进程调度模拟",
+      "summary": "C 语言实现 FCFS/SJF/RR 三种调度算法",
+      "memories": [
+        { "kind": "constraint", "text": "操作系统课设需要实现 FCFS、SJF、RR 三种进程调度算法。", "reason": "题目要求" },
+        { "kind": "constraint", "text": "使用 C 语言在 Linux 环境下完成，输出必须包含平均周转时间和平均等待时间。", "reason": "验收标准" },
+        { "kind": "decision", "text": "PCB 使用结构体数组模拟，不使用链表。", "reason": "实现简化" },
+        { "kind": "pitfall", "text": "RR 算法的时间片被设成 0，导致进程永远无法完成而死循环。", "reason": "踩坑记录" },
+        { "kind": "next_step", "text": "队友接手 SJF 抢占式版本的实现。", "reason": "分工安排" }
+      ]
+    },
+    {
+      "key": "S5",
+      "title": "创新项目 · 校园二手交易小程序",
+      "summary": "微信小程序 + FastAPI 的校园二手交易平台",
+      "memories": [
+        { "kind": "constraint", "text": "校园二手交易项目前端使用微信小程序，后端使用 Python FastAPI。", "reason": "技术选型" },
+        { "kind": "constraint", "text": "数据库只能使用学校提供的 MySQL，不能自建数据库。", "reason": "学校规定" },
+        { "kind": "decision", "text": "第一版只做发布、列表、详情三个功能，聊天功能砍掉。", "reason": "两周工期" },
+        { "kind": "pitfall", "text": "小程序 request 域名必须是 HTTPS 且已备案，本地调试要在开发者工具里关闭域名校验。", "reason": "踩坑记录" },
+        { "kind": "next_step", "text": "队友接手商品图片上传功能。", "reason": "分工安排" }
+      ]
+    }
+  ]
+}
